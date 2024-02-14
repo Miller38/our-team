@@ -53,6 +53,12 @@ h2 {
   margin-top: -90px;
   position: relative;
   box-shadow: 0 10px 20px 0 rgba(0,0,0,0.4); 
+  transition: all 0.2s ease-in;
+}
+
+.card .pic img:hover{
+  width:130px ;
+  height: 130px;
 }
 
 .card .info h3 {
@@ -66,7 +72,7 @@ h2 {
   font-size: 13px;
   padding: 10px 20px;
   color: #8f8c8c;
-  text-align: justify;
+  
 }
 
 a {
@@ -75,6 +81,11 @@ a {
   color: #e74c3c;
   margin-top: 10px;
   margin-left: 15px;
+  transition: all 0.2s ease-in;
+}
+
+.icons a:hover {  
+  font-size: 30px;
 }
 
 .btn-bd-primary {
